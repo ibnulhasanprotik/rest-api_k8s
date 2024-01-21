@@ -27,5 +27,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ibnulhasanprotik/weather-app-api:${{ github.event.release.tag_name }}
+        tags: ibnulhasanprotik/weather-app-api:${{ github.run_number }}
 
